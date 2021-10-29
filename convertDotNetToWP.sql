@@ -32,5 +32,5 @@ NULL AS 'CROSSELL IDS'
 
 FROM [eir12349_DMKj3mXFAB].[dbo].[Products] 
 INNER JOIN dbo.Navs AS navs
-ON navs.NavId = navs.NavId
+ON Products.NavId = navs.NavId
 
